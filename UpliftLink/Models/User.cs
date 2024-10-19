@@ -1,25 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
+using System.Text.Json;
 using System.Threading.Tasks;
+using UpliftLink.Models;
 
-namespace UpliftLink.Models
+namespace UpliftLink.Services
 {
     /// <summary>
-    /// Represents a user in the system.
+    /// Service for managing user preferences.
     /// </summary>
-    public class User
+    public class UserPreferenceService
     {
-        /// <summary>
-        /// Gets or sets the device ID of the user.
-        /// </summary>
-        public string DeviceId { get; set; }
+        private readonly string _filePath;
 
         /// <summary>
-        /// Gets or sets the name of the user.
+        /// Initializes a new instance of the <see cref="UserPreferenceService"/> class.
         /// </summary>
-        public string Name { get; set; }
+        /// <param name="filePath">The file path where the user preferences will be stored.</param>
+        public UserPreferenceService(string filePath)
+        {
+            _filePath = filePath;
+        }
+
+        /// <summary>
+        /// Saves user preferences to a JSON file asynchronously.
+        /// </summary>
+        /// <param name="preferences">The user preferences to save.</param>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        public async Task SavePreferencesAsync(UserPreferences preferences)
+        {
+            var json = JsonSerializer.Serialize(preferences, new JsonSerializerOptions { WriteIndented = true });
+            await File.WriteAllTextAsync(_filePath, json);
+        }
+
+        /// <summary>
+        /// Loads user preferences from a JSON file asynchronously.
+        /// </summary>
+        /// <returns>A task that represents the asynchronous operation. The task result contains the user preferences.</returns>
+        public async Task<UserPreferences> LoadPreferencesAsync()
+        {
+            if (!File.Exists(_filePath))
+                return new UserPreferences();
+
+            var json = await File.ReadAllTextAsync(_filePath);
+            return JsonSerializer.Deserialize<UserPreferences>(json);
+        }
     }
 }
-

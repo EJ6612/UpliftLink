@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace UpliftLink.UserPref
+namespace UpliftLink.Models
 {
     public class UserPreferences
     {

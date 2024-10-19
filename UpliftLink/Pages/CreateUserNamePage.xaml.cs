@@ -1,3 +1,8 @@
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+
+
 namespace UpliftLink.Pages;
 
 public partial class CreateUserNamePage : ContentPage
@@ -153,7 +158,17 @@ public partial class CreateUserNamePage : ContentPage
 		string userName = userNameBox.Text;
 
 		// Code here to save to JSON
+		string filePath = Path.Combine(FileSystem.AppDataDirectory, "user_preferences.json");
+		string jsonString = File.ReadAllText(filePath);
+		var jsonObject = JsonNode.Parse(jsonString);
 
-		await Navigation.PushAsync(new CreateOutgoingMessagesPage());
+		jsonObject["userName"] = userName;
+
+        jsonString = JsonSerializer.Serialize(new JsonSerializerOptions { WriteIndented = true });
+		File.WriteAllText(filePath, jsonString);
+
+
+
+        await Navigation.PushAsync(new CreateOutgoingMessagesPage());
 	}
 }

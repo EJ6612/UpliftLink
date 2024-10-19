@@ -79,4 +79,19 @@ namespace UpliftLink.Models
             CategoryCounts = new Dictionary<string, int>();
         }
     }
+    /// <summary>
+    /// Represents a user in the system.
+    /// </summary>
+    public class User
+    {
+        /// <summary>
+        /// Gets or sets the device ID of the user.
+        /// </summary>
+        public string DeviceId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the name of the user.
+        /// </summary>
+        public string Name { get; set; }
+    }
 }
