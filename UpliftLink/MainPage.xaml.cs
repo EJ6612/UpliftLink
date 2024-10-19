@@ -18,16 +18,16 @@ namespace UpliftLink
             var userPreferences = await App.UserPreferencesService.LoadPreferencesAsync();
 
             // Check if user exists based on a specific preference, e.g., PersonalizedMessages
-            if (userPreferences.PersonalizedMessages == null || userPreferences.PersonalizedMessages.Count == 0)
+            if (userPreferences.PersonalizedMessages != null)// || userPreferences.PersonalizedMessages.Count == 0)
             {
                 // User does not exist, navigate to CreateUserNamePage
-                var newUserPage = new CreateUserNamePage();
+                var newUserPage = new ReturnedUserUI();
                 Application.Current.MainPage = new NavigationPage(newUserPage);
             }
             
             else
             {
-                var returningUserPage = new IncomingMessagesPage();
+                var returningUserPage = new ReturnedUserUI();
                 Application.Current.MainPage = new NavigationPage(returningUserPage);
                 // User exists, proceed with the main page logic
                 // You can add additional logic here if needed

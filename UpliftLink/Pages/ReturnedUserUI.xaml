@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UpliftLink.Pages"
              x:Class="UpliftLink.Pages.ReturnedUserUI"
              Title="ReturnedUserUI">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
-</ContentPage>
+
+             <local:IncomingMessagesPage Title="Incoming Messages"
+                IconImageSource="incoming64.png">
+                </local:IncomingMessagesPage>
+            <local:OutgoingMessagesPage Title="Outgoing Messages"
+                IconImageSource="outgoing64.png">
+                </local:OutgoingMessagesPage>
+            <local:UserSettingsPage Title="User Settings"
+                IconImageSource="settings64.png">
+                </local:UserSettingsPage>
+ 
+</TabbedPage>

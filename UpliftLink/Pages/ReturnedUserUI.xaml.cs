@@ -1,6 +1,6 @@
 namespace UpliftLink.Pages;
 
-public partial class ReturnedUserUI : ContentPage
+public partial class ReturnedUserUI : TabbedPage
 {
 	public ReturnedUserUI()
 	{

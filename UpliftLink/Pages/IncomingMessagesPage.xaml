@@ -6,7 +6,10 @@
 
              <ScrollView>
                 <VerticalStackLayout Padding="20">
-
+                    <Label Text="Incoming Messages"
+                        FontSize="Header"
+                        VerticalTextAlignment="Start"
+                        HorizontalTextAlignment="Start" />
                 </VerticalStackLayout>
              </ScrollView>
           
