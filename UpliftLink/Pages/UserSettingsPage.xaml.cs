@@ -6,4 +6,14 @@ public partial class UserSettingsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void IncomingPreferenceButton_Clicked(object sender, EventArgs e)
+    {
+		await Navigation.PushAsync(new SelectIncomingMessagesPage());
+    }
+
+    private async void OutgoingEditButton_Clicked(object sender, EventArgs e)
+    {
+		await Navigation.PushAsync(new CreateOutgoingMessagesPage());
+    }
 }
