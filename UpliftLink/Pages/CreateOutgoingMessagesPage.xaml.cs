@@ -6,8 +6,14 @@ public partial class CreateOutgoingMessagesPage : ContentPage
 	{
 		InitializeComponent();
 		SaveButton.IsEnabled = AreAllEditorsFilled();
+
+		// Code here: Check JSON, fill if not new user.
 	}
 
+	/// <summary>
+	/// Check if all the editors have content.
+	/// </summary>
+	/// <returns></returns>
 	private bool AreAllEditorsFilled()
 	{
 		return !string.IsNullOrWhiteSpace(UpliftingMessageInput.Text) &&
@@ -21,12 +27,15 @@ public partial class CreateOutgoingMessagesPage : ContentPage
 		SaveButton.IsEnabled = AreAllEditorsFilled();
     }
 
+
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
 		string pickMeUpMessage = 	UpliftingMessageInput.Text;
 		string humorousMessage = 	HumorousMessageInput.Text;
 		string serviceIdeaMessage = ServiceIdeaMessageInput.Text;
 		string quoteMessage = 		QuoteMessageInput.Text;
+
+		// Save strings to JSON
 
 		await Navigation.PushAsync(new SelectIncomingMessagesPage());
     }

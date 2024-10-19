@@ -11,8 +11,14 @@ public partial class IncomingMessagesPage : ContentPage
 		CreateChatBubble("Are we out of the woods yet are we out of the woods yet are we out of the woods are we in the clear yet are we in the clear yet are in in the clear yet in the clear yet good", "Obsessive-Catlady-1989");
 	}
 
+	/// <summary>
+	/// Create a chat bubble for incoming message.
+	/// </summary>
+	/// <param name="message">Message content</param>
+	/// <param name="senderName">Sender name</param>
 	private void CreateChatBubble(string message, string senderName)
 	{
+		// Message bubble
 		var messageLabel = new Label 
 		{
 			Text = message,
@@ -37,6 +43,7 @@ public partial class IncomingMessagesPage : ContentPage
 
 		};
 
+		// Sender name
 		var messageSenderName = new Label
 		{
 			Text = senderName,

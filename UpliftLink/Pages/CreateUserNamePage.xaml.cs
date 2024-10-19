@@ -8,8 +8,12 @@ public partial class CreateUserNamePage : ContentPage
 		CreateUserName();
 	}
 
+	/// <summary>
+	/// Create a random username
+	/// </summary>
 	private void CreateUserName()
 	{
+		// 1000 adjectives
 		string[] funAdjectives =
             {
                 "Adventurous", "Amazing", "Ambitious", "Amusing", "Astounding", "Awesome", "Baffling", "Beautiful", "Bewildering", "Blissful",
@@ -62,6 +66,7 @@ public partial class CreateUserNamePage : ContentPage
                 "Fascinating", "Fearless", "Feisty", "Fickle", "Friendly", "Funny", "Furious", "Generous", "Glamorous"
             };
 
+		// 1000 nouns
 		string[] funNouns = 
 		{
 			"Aardvark", "Abacus", "Accordion", "Acorn", "Aerosol", "Airplane", "Albatross", "Almond", "Anchor", "Angler",
@@ -146,6 +151,8 @@ public partial class CreateUserNamePage : ContentPage
 	private async void SaveButton_Clicked(object sender, EventArgs e)
 	{
 		string userName = userNameBox.Text;
+
+		// Code here to save to JSON
 
 		await Navigation.PushAsync(new CreateOutgoingMessagesPage());
 	}

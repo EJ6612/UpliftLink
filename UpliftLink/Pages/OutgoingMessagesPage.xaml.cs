@@ -10,8 +10,15 @@ public partial class OutgoingMessagesPage : ContentPage
 		CreateChatBubble("oh yeah oh yeah i like that ooooohhhhhh my gooooooosh GOLLY GEE GOVNAR", "Service Idea", 249);
 	}
 
+	/// <summary>
+	/// Create a chat bubble for outgoing message.
+	/// </summary>
+	/// <param name="message">The message the user set for the category.</param>
+	/// <param name="category">The message category.</param>
+	/// <param name="count">Count of how many times category sent out.</param>
 	private void CreateChatBubble(string message, string category, int count)
 	{
+		// Message bubble
 		var messageLabel = new Label 
 		{
 			Text = message,
@@ -36,6 +43,7 @@ public partial class OutgoingMessagesPage : ContentPage
 
 		};
 
+		// Sender name above bubble
 		var messageSenderName = new Label
 		{
 			Text = $"{category}s sent: {count}",
