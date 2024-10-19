@@ -143,8 +143,6 @@ namespace UpliftLink
 
             userNameBox.Text = userName;
         }
-
-        
     }
 
 }
