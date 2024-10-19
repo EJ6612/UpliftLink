@@ -7,8 +7,13 @@ public partial class IncomingMessagesPage : ContentPage
 		InitializeComponent();
 
 		// foreach message in messages, maximum 20
-		CreateChatBubble("All the single ladies! All the single ladies! ", "Beyonce-With-A-Knife-3000");
-		CreateChatBubble("Are we out of the woods yet are we out of the woods yet are we out of the woods are we in the clear yet are we in the clear yet are in in the clear yet in the clear yet good", "Obsessive-Catlady-1989");
+		CreateChatBubble("Wave to 5 people today.", "Bouncing-Fish-4957");
+		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
+		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
+		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
+		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
+		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
+
 	}
 
 	/// <summary>
@@ -38,9 +43,7 @@ public partial class IncomingMessagesPage : ContentPage
 			BorderColor = Colors.Transparent,
 			BackgroundColor = Color.FromArgb("#1EBE46"),
 			HorizontalOptions = LayoutOptions.Start,
-			Margin = new Thickness(1, 1),
-			WidthRequest = 250
-
+			Margin = new Thickness(1, 1, 5, 1)
 		};
 
 		// Sender name

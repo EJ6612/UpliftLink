@@ -5,9 +5,10 @@ public partial class OutgoingMessagesPage : ContentPage
 	public OutgoingMessagesPage()
 	{
 		InitializeComponent();
-		CreateChatBubble("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO AAAAAAAAAAAAAAAAAAAAAAAA", "Lift-me-up", 4);
-		CreateChatBubble("hehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehehe", "Quote", 2);
-		CreateChatBubble("oh yeah oh yeah i like that ooooohhhhhh my gooooooosh GOLLY GEE GOVNAR", "Service Idea", 249);
+		CreateChatBubble("You've got this!", "Lift-me-up", 8);
+		CreateChatBubble("Love one another -Jesus Christ", "Quote", 5);
+		CreateChatBubble("Instead of Abinadi, what if Abinasurvived.", "Humor", 11);
+		CreateChatBubble("Give someone an orange, if they're not allergic.", "Service Idea", 2);
 	}
 
 	/// <summary>
@@ -38,9 +39,7 @@ public partial class OutgoingMessagesPage : ContentPage
 			BorderColor = Colors.Transparent,
 			BackgroundColor = Color.FromArgb("#FF92ECA9"),
 			HorizontalOptions = LayoutOptions.End,
-			Margin = new Thickness(1, 1),
-			WidthRequest = 250
-
+			Margin = new Thickness(5, 1, 1, 1)
 		};
 
 		// Sender name above bubble
@@ -53,7 +52,7 @@ public partial class OutgoingMessagesPage : ContentPage
 
 		var chatObject = new VerticalStackLayout
 		{
-			Padding = new Thickness(0, 5, 0, 5),
+			Padding = new Thickness(0, 5, 0, 20),
 			Spacing = 5,
 		};
 

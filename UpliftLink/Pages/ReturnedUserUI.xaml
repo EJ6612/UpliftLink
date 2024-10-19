@@ -3,7 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:UpliftLink.Pages"
              x:Class="UpliftLink.Pages.ReturnedUserUI"
-             Title="ReturnedUserUI">
+             Title="Uplift Link"
+             BarBackgroundColor="#004812"
+             SelectedTabColor="#1EBE46"
+             UnselectedTabColor="White">
 
              <local:IncomingMessagesPage x:Name="IncomingMessages"
                 Title=""
