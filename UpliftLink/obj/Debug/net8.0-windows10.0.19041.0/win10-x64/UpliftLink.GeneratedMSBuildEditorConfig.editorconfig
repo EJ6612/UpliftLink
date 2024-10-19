@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UpliftLink
-build_property.ProjectDir = C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\
+build_property.ProjectDir = C:\Users\ej_66\source\repos\UpliftLink\UpliftLink\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -19,31 +19,31 @@ build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
 build_property.CsWinRTMergeReferencedActivationFactories = 
 build_property.CsWinRTAotWarningLevel = 
 
-[C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/App.xaml]
+[C:/Users/ej_66/source/repos/UpliftLink/UpliftLink/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/AppShell.xaml]
+[C:/Users/ej_66/source/repos/UpliftLink/UpliftLink/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/MainPage.xaml]
+[C:/Users/ej_66/source/repos/UpliftLink/UpliftLink/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/Resources/Styles/Colors.xaml]
+[C:/Users/ej_66/source/repos/UpliftLink/UpliftLink/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/Resources/Styles/Styles.xaml]
+[C:/Users/ej_66/source/repos/UpliftLink/UpliftLink/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
