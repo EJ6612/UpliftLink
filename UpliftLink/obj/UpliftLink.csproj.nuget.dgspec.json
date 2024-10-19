@@ -84,10 +84,6 @@
               "version": "[8.0.10, )",
               "autoReferenced": true
             },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -134,10 +130,6 @@
               "target": "Package",
               "version": "[8.0.10, )",
               "autoReferenced": true
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[3.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -186,10 +178,6 @@
               "version": "[8.0.10, )",
               "autoReferenced": true
             },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -231,10 +219,6 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.92, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[3.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
