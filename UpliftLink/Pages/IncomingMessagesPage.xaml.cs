@@ -36,7 +36,7 @@ public partial class IncomingMessagesPage : ContentPage
 			CornerRadius = 15,
 			HasShadow = true,
 			BorderColor = Colors.Transparent,
-			BackgroundColor = Colors.MediumBlue,
+			BackgroundColor = Color.FromArgb("#1EBE46"),
 			HorizontalOptions = LayoutOptions.Start,
 			Margin = new Thickness(1, 1),
 			WidthRequest = 250

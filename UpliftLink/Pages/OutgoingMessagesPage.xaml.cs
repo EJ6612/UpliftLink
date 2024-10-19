@@ -36,7 +36,7 @@ public partial class OutgoingMessagesPage : ContentPage
 			CornerRadius = 15,
 			HasShadow = true,
 			BorderColor = Colors.Transparent,
-			BackgroundColor = Colors.SkyBlue,
+			BackgroundColor = Color.FromArgb("#FF92ECA9"),
 			HorizontalOptions = LayoutOptions.End,
 			Margin = new Thickness(1, 1),
 			WidthRequest = 250
@@ -46,7 +46,7 @@ public partial class OutgoingMessagesPage : ContentPage
 		// Sender name above bubble
 		var messageSenderName = new Label
 		{
-			Text = $"{category}s sent: {count}",
+			Text = $"{count} {category} messages shared.",
 			FontSize = 14,
 			HorizontalOptions = LayoutOptions.End
 		};
