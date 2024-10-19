@@ -10,21 +10,32 @@ namespace UpliftLink.Services
     public class MessageService
     {
         private List<string> personalizedMessages;
+        private UserPreferences userPreferences;
 
         public MessageService(UserPreferences preferences)
         {
+            userPreferences = preferences;
             personalizedMessages = preferences.PersonalizedMessages;
         }
 
-        public void SendMessage(string message)
+        public async Task SendMessageAsync(string message)
         {
-            // Logic to send the message to nearby devices
+            try
+            {
+                // Logic to send the message to nearby devices
+                await Task.Run(() => Console.WriteLine($"Sending message: {message}"));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error sending message: {ex.Message}");
+            }
         }
 
         public void AddPersonalizedMessage(string message)
         {
             personalizedMessages.Add(message);
-            // Optionally save to UserPreferences
+            userPreferences.PersonalizedMessages = personalizedMessages;
+            userPreferences.SavePreferences();
         }
 
         public List<string> GetPersonalizedMessages()

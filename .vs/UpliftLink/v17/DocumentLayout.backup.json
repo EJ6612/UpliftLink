@@ -1,5 +1,20 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\proximityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\proximityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\userpref\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\userpref\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
   "WorkspaceRootPath": "C:\\Users\\ej_66\\source\\repos\\UpliftLink\\",
   "Documents": [
     {
@@ -13,6 +28,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\users\\ej_66\\source\\repos\\upliftlink\\upliftlink\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> 7b412a4e9e3e280e7fc6008f83219fe771f821fb
     }
   ],
   "DocumentGroupContainers": [
@@ -22,6 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProximityService.cs",
+              "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\ProximityService.cs",
+              "RelativeDocumentMoniker": "UpliftLink\\Services\\ProximityService.cs",
+              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\ProximityService.cs",
+              "RelativeToolTip": "UpliftLink\\Services\\ProximityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:02:21.769Z",
+=======
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -32,7 +63,7 @@
               "RelativeDocumentMoniker": "UpliftLink\\UserPref\\UserPreferences.cs",
               "ToolTip": "C:\\Users\\ej_66\\source\\repos\\UpliftLink\\UpliftLink\\UserPref\\UserPreferences.cs",
               "RelativeToolTip": "UpliftLink\\UserPref\\UserPreferences.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T02:53:56.685Z",
               "EditorCaption": ""
@@ -48,11 +79,35 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T02:53:40.125Z",
+>>>>>>> 7b412a4e9e3e280e7fc6008f83219fe771f821fb
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
+              "Title": "UserPreferences.cs",
+              "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\UserPref\\UserPreferences.cs",
+              "RelativeDocumentMoniker": "UpliftLink\\UserPref\\UserPreferences.cs",
+              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\UserPref\\UserPreferences.cs",
+              "RelativeToolTip": "UpliftLink\\UserPref\\UserPreferences.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:02:00.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "UpliftLink\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\MessageService.cs",
+              "RelativeToolTip": "UpliftLink\\Services\\MessageService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:00:57.734Z",
+=======
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\ej_66\\source\\repos\\UpliftLink\\UpliftLink\\MainPage.xaml",
               "RelativeDocumentMoniker": "UpliftLink\\MainPage.xaml",
@@ -61,6 +116,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-19T02:51:45.996Z",
+>>>>>>> 7b412a4e9e3e280e7fc6008f83219fe771f821fb
               "EditorCaption": ""
             }
           ]

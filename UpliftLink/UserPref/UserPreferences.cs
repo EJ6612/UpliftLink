@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json;
+using Microsoft.Maui.Essentials;
 
 namespace UpliftLink.UserPref
 {
@@ -18,12 +17,41 @@ namespace UpliftLink.UserPref
 
         public void SavePreferences()
         {
-            // Logic to save preferences (e.g., to local storage)
+            try
+            {
+                // Save IsVisible
+                Preferences.Set("IsVisible", IsVisible);
+
+                // Serialize and save PersonalizedMessages
+                string messagesJson = JsonSerializer.Serialize(PersonalizedMessages);
+                Preferences.Set("PersonalizedMessages", messagesJson);
+            }
+            catch (Exception ex)
+            {
+                // Handle or log the exception as needed
+                Console.WriteLine($"Error saving preferences: {ex.Message}");
+            }
         }
 
         public void LoadPreferences()
         {
-            // Logic to load preferences (e.g., from local storage)
+            try
+            {
+                // Load IsVisible
+                IsVisible = Preferences.Get("IsVisible", false);
+
+                // Load and deserialize PersonalizedMessages
+                string messagesJson = Preferences.Get("PersonalizedMessages", string.Empty);
+                if (!string.IsNullOrEmpty(messagesJson))
+                {
+                    PersonalizedMessages = JsonSerializer.Deserialize<List<string>>(messagesJson);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle or log the exception as needed
+                Console.WriteLine($"Error loading preferences: {ex.Message}");
+            }
         }
     }
 }
