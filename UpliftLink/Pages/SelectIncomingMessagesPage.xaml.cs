@@ -1,3 +1,5 @@
+using Microsoft.VisualBasic;
+
 namespace UpliftLink.Pages;
 
 public partial class SelectIncomingMessagesPage : ContentPage
@@ -8,6 +10,7 @@ public partial class SelectIncomingMessagesPage : ContentPage
 	{
 		InitializeComponent();
 
+		IncomingMessagesPreference.SelectedIndex = 1;
 		// Code here to set the picker (from JSON, or set to pick-me-up if new user)
 	}
 
