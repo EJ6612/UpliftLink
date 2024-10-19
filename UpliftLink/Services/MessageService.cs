@@ -1,46 +1,133 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using UpliftLink.Models;
 using UpliftLink.UserPref;
 
 namespace UpliftLink.Services
 {
     public class MessageService
     {
-        private List<string> personalizedMessages;
-        private UserPreferences userPreferences;
+        private readonly string _incomingFilePath;
+        private readonly string _outgoingFilePath;
+        private List<IncomingMessage> _incomingMessages;
+        private OutgoingMessageCount _outgoingMessageCount;
+        private UserPreferences _userPreferences;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MessageService"/> class.
+        /// </summary>
+        /// <param name="preferences">User preferences.</param>
         public MessageService(UserPreferences preferences)
         {
-            userPreferences = preferences;
-            personalizedMessages = preferences.PersonalizedMessages;
+            _userPreferences = preferences;
+            _incomingFilePath = Path.Combine(FileSystem.AppDataDirectory, "incomingMessages.json");
+            _outgoingFilePath = Path.Combine(FileSystem.AppDataDirectory, "outgoingMessageCount.json");
+            _incomingMessages = new List<IncomingMessage>();
+            _outgoingMessageCount = new OutgoingMessageCount();
         }
 
-        public async Task SendMessageAsync(string message)
+        /// <summary>
+        /// Adds a new incoming message and saves it to the JSON file.
+        /// </summary>
+        /// <param name="senderUserName">The username of the sender.</param>
+        /// <param name="content">The content of the message.</param>
+        /// <param name="sender">The sender of the message.</param>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        public async Task AddIncomingMessageAsync(string senderUserName, string content, string sender)
         {
-            try
+            var incomingMessage = new IncomingMessage(content, sender, DateTime.UtcNow, senderUserName);
+            _incomingMessages.Add(incomingMessage);
+            await SaveIncomingMessagesAsync();
+        }
+
+        /// <summary>
+        /// Increments the count of outgoing messages for a given category and saves it to the JSON file.
+        /// </summary>
+        /// <param name="category">The category of the message.</param>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        public async Task IncrementOutgoingMessageCountAsync(string category)
+        {
+            if (_outgoingMessageCount.CategoryCounts.ContainsKey(category))
             {
-                // Logic to send the message to nearby devices
-                await Task.Run(() => Console.WriteLine($"Sending message: {message}"));
+                _outgoingMessageCount.CategoryCounts[category]++;
             }
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine($"Error sending message: {ex.Message}");
+                _outgoingMessageCount.CategoryCounts[category] = 1;
+            }
+            await SaveOutgoingMessageCountAsync();
+        }
+
+        /// <summary>
+        /// Cleans up messages older than 24 hours and saves the updated list to the JSON file.
+        /// </summary>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        public async Task CleanUpOldMessagesAsync()
+        {
+            var cutoffTime = DateTime.UtcNow.AddHours(-24);
+            _incomingMessages = _incomingMessages.Where(m => m.Timestamp >= cutoffTime).ToList();
+            await SaveIncomingMessagesAsync();
+        }
+
+        /// <summary>
+        /// Saves the list of incoming messages to the JSON file.
+        /// </summary>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        private async Task SaveIncomingMessagesAsync()
+        {
+            var json = JsonSerializer.Serialize(_incomingMessages, new JsonSerializerOptions { WriteIndented = true });
+            await File.WriteAllTextAsync(_incomingFilePath, json);
+        }
+
+        /// <summary>
+        /// Saves the outgoing message count to the JSON file.
+        /// </summary>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        private async Task SaveOutgoingMessageCountAsync()
+        {
+            var json = JsonSerializer.Serialize(_outgoingMessageCount, new JsonSerializerOptions { WriteIndented = true });
+            await File.WriteAllTextAsync(_outgoingFilePath, json);
+        }
+
+        /// <summary>
+        /// Loads incoming and outgoing messages from their respective JSON files.
+        /// </summary>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        public async Task LoadMessagesAsync()
+        {
+            if (File.Exists(_incomingFilePath))
+            {
+                var json = await File.ReadAllTextAsync(_incomingFilePath);
+                _incomingMessages = JsonSerializer.Deserialize<List<IncomingMessage>>(json);
+            }
+
+            if (File.Exists(_outgoingFilePath))
+            {
+                var json = await File.ReadAllTextAsync(_outgoingFilePath);
+                _outgoingMessageCount = JsonSerializer.Deserialize<OutgoingMessageCount>(json);
             }
         }
 
-        public void AddPersonalizedMessage(string message)
+        /// <summary>
+        /// Gets the list of incoming messages.
+        /// </summary>
+        /// <returns>The list of incoming messages.</returns>
+        public List<IncomingMessage> GetIncomingMessages()
         {
-            personalizedMessages.Add(message);
-            userPreferences.PersonalizedMessages = personalizedMessages;
-            userPreferences.SavePreferences();
+            return _incomingMessages;
         }
 
-        public List<string> GetPersonalizedMessages()
+        /// <summary>
+        /// Gets the outgoing message count.
+        /// </summary>
+        /// <returns>The outgoing message count.</returns>
+        public OutgoingMessageCount GetOutgoingMessageCount()
         {
-            return personalizedMessages;
+            return _outgoingMessageCount;
         }
     }
 }
