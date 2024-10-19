@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.Json;
-using Microsoft.Maui.Essentials;
+using Microsoft.Maui;
 
 namespace UpliftLink.UserPref
 {
