@@ -6,6 +6,12 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
+    <Source>C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\Resources\Images\logo.png</Source>
+    <SmallTileSource>C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\Resources\Images\logo.png</SmallTileSource>
+    <MediumTileSource>C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\Resources\Images\logo.png</MediumTileSource>
+    <AppIconSource>C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\Resources\Images\logo.png</AppIconSource>
+    <SplashScreenSource>C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\Resources\Images\logo.png</SplashScreenSource>
+    <PackageLogoSource>C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\Resources\Images\logo.png</PackageLogoSource>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
@@ -19,6 +25,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Update="MainPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Platforms\Windows\Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
