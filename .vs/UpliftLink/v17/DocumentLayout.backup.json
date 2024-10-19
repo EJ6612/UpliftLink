@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\pages\\createusernamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\pages\\createusernamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateUserNamePage.xaml",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Pages\\CreateUserNamePage.xaml",
               "RelativeDocumentMoniker": "UpliftLink\\Pages\\CreateUserNamePage.xaml",
               "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Pages\\CreateUserNamePage.xaml",
               "RelativeToolTip": "UpliftLink\\Pages\\CreateUserNamePage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-19T08:57:13.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CreateUserNamePage.xaml.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Pages\\CreateUserNamePage.xaml.cs",
               "RelativeDocumentMoniker": "UpliftLink\\Pages\\CreateUserNamePage.xaml.cs",
@@ -95,15 +95,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "JsonService.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\JsonService.cs",
               "RelativeDocumentMoniker": "UpliftLink\\Services\\JsonService.cs",
               "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\JsonService.cs",
               "RelativeToolTip": "UpliftLink\\Services\\JsonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T08:38:17.175Z"
+              "WhenOpened": "2024-10-19T08:38:17.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -119,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "UpliftLink\\MainPage.xaml.cs",
@@ -131,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\App.xaml.cs",
               "RelativeDocumentMoniker": "UpliftLink\\App.xaml.cs",

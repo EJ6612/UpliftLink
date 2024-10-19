@@ -362,3 +362,13 @@ C:\Users\ej_66\source\repos\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.1
 C:\Users\ej_66\source\repos\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 >>>>>>> 7b412a4e9e3e280e7fc6008f83219fe771f821fb
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\incoming.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\incoming200.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\incoming64.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outgoing.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outgoing200.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outgoing64.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings200.scale-100.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings64.scale-100.png

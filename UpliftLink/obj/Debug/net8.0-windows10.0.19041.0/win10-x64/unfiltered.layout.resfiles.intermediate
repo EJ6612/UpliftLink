@@ -51,6 +51,16 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+incoming.scale-100.png
+incoming200.scale-100.png
+incoming64.scale-100.png
+logo.scale-100.png
+outgoing.scale-100.png
+outgoing200.scale-100.png
+outgoing64.scale-100.png
+settings.scale-100.png
+settings200.scale-100.png
+settings64.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
