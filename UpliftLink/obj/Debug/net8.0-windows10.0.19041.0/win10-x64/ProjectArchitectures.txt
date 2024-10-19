@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\UpliftLink.csproj;x64
+=======
+C:\Users\ej_66\source\repos\UpliftLink\UpliftLink\UpliftLink.csproj;x64
+>>>>>>> 7b412a4e9e3e280e7fc6008f83219fe771f821fb
