@@ -33049,24 +33049,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jarom\\.nuget\\packages\\": {},
+    "C:\\Users\\ej_66\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\UpliftLink.csproj",
+      "projectUniqueName": "C:\\Users\\ej_66\\source\\repos\\UpliftLink\\UpliftLink\\UpliftLink.csproj",
       "projectName": "UpliftLink",
-      "projectPath": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\UpliftLink.csproj",
-      "packagesPath": "C:\\Users\\jarom\\.nuget\\packages\\",
-      "outputPath": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\obj\\",
+      "projectPath": "C:\\Users\\ej_66\\source\\repos\\UpliftLink\\UpliftLink\\UpliftLink.csproj",
+      "packagesPath": "C:\\Users\\ej_66\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ej_66\\source\\repos\\UpliftLink\\UpliftLink\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jarom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ej_66\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
