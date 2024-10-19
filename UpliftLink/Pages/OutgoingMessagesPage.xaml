@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout x:Name="StackLayout" Padding="20">
             <Label Text="Outgoing Messages"
-                FontSize="Header"
+                FontSize="Title"
                 VerticalTextAlignment="Start"
                 HorizontalTextAlignment="Start" />
         </VerticalStackLayout>
