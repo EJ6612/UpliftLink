@@ -18,7 +18,7 @@ namespace UpliftLink.Services
         /// </summary>
         public UserPreferencesService()
         {
-            _filePath = Path.Combine(FileSystem.AppDataDirectory, "userpreferences.json");
+            _filePath = Path.Combine(FileSystem.AppDataDirectory, "user_preferences.json");
             _userPreferences = new UserPreferences();
         }
 
@@ -44,6 +44,7 @@ namespace UpliftLink.Services
             {
                 var json = await File.ReadAllTextAsync(_filePath);
                 _userPreferences = JsonSerializer.Deserialize<UserPreferences>(json);
+                
             }
             return _userPreferences;
         }

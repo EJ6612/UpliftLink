@@ -13,6 +13,8 @@ namespace UpliftLink
             CheckUserExistenceAsync();
         }
 
+        
+
         private async Task CheckUserExistenceAsync()
         {
             var userPreferences = await App.UserPreferencesService.LoadPreferencesAsync();
