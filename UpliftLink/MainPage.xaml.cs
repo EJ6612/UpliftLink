@@ -11,12 +11,13 @@ namespace UpliftLink
         {
             InitializeComponent();
 
-            //Navigation.PushAsync(new CreateUserNamePage());
-            //Navigation.PopToRootAsync();
-
+            // Write code to deterimine if user already exists
+            
+            // if...
             var NewUserPage = new CreateUserNamePage();
             Application.Current.MainPage = new NavigationPage(NewUserPage);
 
+            // else...
             
         }
 

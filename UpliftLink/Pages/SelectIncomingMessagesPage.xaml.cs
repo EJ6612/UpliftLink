@@ -17,6 +17,6 @@ public partial class SelectIncomingMessagesPage : ContentPage
 
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
-		await Navigation.PushAsync(new IncomingMessagesPage());
+		await Navigation.PushAsync(new MainPage());
     }
 }
