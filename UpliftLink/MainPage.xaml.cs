@@ -24,8 +24,11 @@ namespace UpliftLink
                 var newUserPage = new CreateUserNamePage();
                 Application.Current.MainPage = new NavigationPage(newUserPage);
             }
+            
             else
             {
+                var returningUserPage = new IncomingMessagesPage();
+                Application.Current.MainPage = new NavigationPage(returningUserPage);
                 // User exists, proceed with the main page logic
                 // You can add additional logic here if needed
             }
