@@ -10,26 +10,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <ItemGroup>
-    <MauiXaml Update="Pages\CreateOutgoingMessagesPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\CreateUserNamePage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\IncomingMessagesPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\OutgoingMessagesPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\SelectIncomingMessagesPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\UserSettingsPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
@@ -38,18 +19,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Update="MainPage.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Platforms\Windows\App.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Platforms\Windows\Package.appxmanifest">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Resources\Styles\Colors.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Resources\Styles\Styles.xaml">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
