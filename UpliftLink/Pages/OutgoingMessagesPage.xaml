@@ -4,7 +4,7 @@
              x:Class="UpliftLink.Pages.OutgoingMessagesPage"
              Title="OutgoingMessagesPage">
     <ScrollView>
-        <VerticalStackLayout Padding="20">
+        <VerticalStackLayout x:Name="StackLayout" Padding="20">
             <Label Text="Outgoing Messages"
                 FontSize="Header"
                 VerticalTextAlignment="Start"

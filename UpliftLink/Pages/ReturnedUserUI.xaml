@@ -5,14 +5,17 @@
              x:Class="UpliftLink.Pages.ReturnedUserUI"
              Title="ReturnedUserUI">
 
-             <local:IncomingMessagesPage Title="Incoming Messages"
-                IconImageSource="incoming64.png">
+             <local:IncomingMessagesPage x:Name="IncomingMessages"
+                Title=""
+                IconImageSource="incoming32.png">
                 </local:IncomingMessagesPage>
-            <local:OutgoingMessagesPage Title="Outgoing Messages"
-                IconImageSource="outgoing64.png">
+            <local:OutgoingMessagesPage x:Name="OutgoingMessages"
+                Title=""
+                IconImageSource="outgoing32.png">
                 </local:OutgoingMessagesPage>
-            <local:UserSettingsPage Title="User Settings"
-                IconImageSource="settings64.png">
+            <local:UserSettingsPage x:Name="UserSettings"
+                Title=""
+                IconImageSource="settings32.png">
                 </local:UserSettingsPage>
  
 </TabbedPage>
