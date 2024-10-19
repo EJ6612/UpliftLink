@@ -1,0 +1,18 @@
+{
+    "incomingMessages": [
+        {
+            "content": "",
+            "sender": "",
+            "timestamp": "",
+            "senderUserName": ""
+        }
+    ],
+    "outgoingMessages": {
+        "categoryCounts": {
+            "liftMeUp": 0,
+            "humor": 0,
+            "serviceIdea": 0,
+            "quote": 0
+        }
+    }
+}

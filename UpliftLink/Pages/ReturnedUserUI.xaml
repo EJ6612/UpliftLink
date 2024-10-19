@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UpliftLink.Pages"
+             x:Class="UpliftLink.Pages.ReturnedUserUI"
+             Title="Uplift Link"
+             BarBackgroundColor="#004812"
+             SelectedTabColor="#1EBE46"
+             UnselectedTabColor="White">
+
+             <local:IncomingMessagesPage x:Name="IncomingMessages"
+                Title=""
+                IconImageSource="incoming32.png">
+                </local:IncomingMessagesPage>
+            <local:OutgoingMessagesPage x:Name="OutgoingMessages"
+                Title=""
+                IconImageSource="outgoing32.png">
+                </local:OutgoingMessagesPage>
+            <local:UserSettingsPage x:Name="UserSettings"
+                Title=""
+                IconImageSource="settings32.png">
+                </local:UserSettingsPage>
+ 
+</TabbedPage>
