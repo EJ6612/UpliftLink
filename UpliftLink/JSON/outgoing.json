@@ -1,9 +1,6 @@
 {
-    "outgoing_messages" :
+    "outgoing_record": 
     {
-        "lift_me_up" : "",
-        "humor" : "",
-        "service_idea" : "",
-        "quote" : ""
+        
     }
 }
