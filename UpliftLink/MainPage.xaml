@@ -37,7 +37,7 @@
        
 
         <!-- Button -->
-        <Button Text="Click Me"
+        <Button Text="Save"
                 x:Name="myButton"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
