@@ -458,6 +458,19 @@
           }
         }
       },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -2675,6 +2688,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -4898,6 +4924,19 @@
           }
         }
       },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -7115,6 +7154,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -9338,6 +9390,19 @@
           }
         }
       },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -11555,6 +11620,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -13778,6 +13856,19 @@
           }
         }
       },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -15998,6 +16089,19 @@
           }
         }
       },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -18193,6 +18297,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios18.0/android-arm": {
@@ -18625,6 +18742,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -19061,6 +19191,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios18.0/android-x64": {
@@ -19493,6 +19636,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -19929,6 +20085,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios18.0/iossimulator-x64": {
@@ -20361,6 +20530,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -20797,6 +20979,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios18.0/win10-x64": {
@@ -21229,6 +21424,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -21665,6 +21873,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
@@ -22097,6 +22318,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -22533,6 +22767,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
@@ -22965,6 +23212,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -23401,6 +23661,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst18.0/iossimulator-x64": {
@@ -23833,6 +24106,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -24269,6 +24555,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
@@ -24701,6 +25000,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -25306,6 +25618,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -25867,6 +26192,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -26432,6 +26770,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -26993,6 +27344,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -27558,6 +27922,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
@@ -28121,6 +28498,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
@@ -28682,6 +29072,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -29251,6 +29654,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Plugin.BLE/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.BLE.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -31543,6 +31959,62 @@
         "packageIcon.png"
       ]
     },
+    "Plugin.BLE/3.1.0": {
+      "sha512": "vKwCqysb0FvPsF2pmNL5Qdw2WI+GwlUyF6U56Au6F7y3f2cnhec9RWD1XZg74zRk10LcGibwiRXoJLl5ry8XHw==",
+      "type": "package",
+      "path": "plugin.ble/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon_small.png",
+        "lib/monoandroid13.0/Plugin.BLE.dll",
+        "lib/monoandroid13.0/Plugin.BLE.pdb",
+        "lib/monoandroid13.0/Plugin.BLE.xml",
+        "lib/net7.0-android33.0/Plugin.BLE.dll",
+        "lib/net7.0-android33.0/Plugin.BLE.pdb",
+        "lib/net7.0-android33.0/Plugin.BLE.xml",
+        "lib/net7.0-ios16.1/Plugin.BLE.dll",
+        "lib/net7.0-ios16.1/Plugin.BLE.pdb",
+        "lib/net7.0-ios16.1/Plugin.BLE.xml",
+        "lib/net7.0-maccatalyst16.1/Plugin.BLE.dll",
+        "lib/net7.0-maccatalyst16.1/Plugin.BLE.pdb",
+        "lib/net7.0-maccatalyst16.1/Plugin.BLE.xml",
+        "lib/net7.0-windows10.0.19041/Plugin.BLE.dll",
+        "lib/net7.0-windows10.0.19041/Plugin.BLE.pdb",
+        "lib/net7.0-windows10.0.19041/Plugin.BLE.xml",
+        "lib/net8.0-android34.0/Plugin.BLE.dll",
+        "lib/net8.0-android34.0/Plugin.BLE.pdb",
+        "lib/net8.0-android34.0/Plugin.BLE.xml",
+        "lib/net8.0-ios17.2/Plugin.BLE.dll",
+        "lib/net8.0-ios17.2/Plugin.BLE.pdb",
+        "lib/net8.0-ios17.2/Plugin.BLE.xml",
+        "lib/net8.0-maccatalyst17.2/Plugin.BLE.dll",
+        "lib/net8.0-maccatalyst17.2/Plugin.BLE.pdb",
+        "lib/net8.0-maccatalyst17.2/Plugin.BLE.xml",
+        "lib/net8.0-windows10.0.19041/Plugin.BLE.dll",
+        "lib/net8.0-windows10.0.19041/Plugin.BLE.pdb",
+        "lib/net8.0-windows10.0.19041/Plugin.BLE.xml",
+        "lib/net8.0-windows10.0.22000/Plugin.BLE.dll",
+        "lib/net8.0-windows10.0.22000/Plugin.BLE.pdb",
+        "lib/net8.0-windows10.0.22000/Plugin.BLE.xml",
+        "lib/netstandard2.0/Plugin.BLE.dll",
+        "lib/netstandard2.0/Plugin.BLE.pdb",
+        "lib/netstandard2.0/Plugin.BLE.xml",
+        "lib/uap10.0.17763/Plugin.BLE.dll",
+        "lib/uap10.0.17763/Plugin.BLE.pdb",
+        "lib/uap10.0.17763/Plugin.BLE.pri",
+        "lib/uap10.0.17763/Plugin.BLE.xml",
+        "lib/xamarinios10/Plugin.BLE.dll",
+        "lib/xamarinios10/Plugin.BLE.pdb",
+        "lib/xamarinios10/Plugin.BLE.xml",
+        "lib/xamarinmac20/Plugin.BLE.dll",
+        "lib/xamarinmac20/Plugin.BLE.pdb",
+        "lib/xamarinmac20/Plugin.BLE.xml",
+        "plugin.ble.3.1.0.nupkg.sha512",
+        "plugin.ble.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -33587,27 +34059,31 @@
       "Microsoft.Maui.Controls >= 8.0.92",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.92",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Plugin.BLE >= 3.1.0"
     ],
     "net8.0-ios18.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.92",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.92",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Plugin.BLE >= 3.1.0"
     ],
     "net8.0-maccatalyst18.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.92",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.92",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Plugin.BLE >= 3.1.0"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.92",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.92",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Plugin.BLE >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -33697,6 +34173,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           }
         },
         "imports": [
@@ -33744,6 +34224,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           }
         },
         "imports": [
@@ -33791,6 +34275,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           }
         },
         "imports": [
@@ -33833,6 +34321,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           }
         },
         "imports": [
