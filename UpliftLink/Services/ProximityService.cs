@@ -21,7 +21,7 @@ namespace UpliftLink.Services
         /// </summary>
         public void StartProximityDetection()
         {
-            // Logic to start scanning for nearby devices
+            // Logic to start scanning for nearby devices using Bluetooth advertising
         }
 
         /// <summary>
@@ -30,6 +30,16 @@ namespace UpliftLink.Services
         public void StopProximityDetection()
         {
             // Logic to stop scanning for nearby devices
+        }
+
+        /// <summary>
+        /// Sends a message to a nearby device identified by its unique MAC ID.
+        /// </summary>
+        /// <param name="macId">The MAC ID of the target device.</param>
+        /// <param name="message">The message to send.</param>
+        public void SendMessage(string macId, string message)
+        {
+            // Logic to send a message to the target device identified by its MAC ID
         }
     }
 }

@@ -12,6 +12,7 @@ namespace UpliftLink.Services
     {
         private readonly string _filePath;
         private UserPreferences _userPreferences;
+        private readonly ProximityService _proximityService;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="UserPreferencesService"/> class.
@@ -20,6 +21,7 @@ namespace UpliftLink.Services
         {
             _filePath = Path.Combine(FileSystem.AppDataDirectory, "user_preferences.json");
             _userPreferences = new UserPreferences();
+            _proximityService = new ProximityService();
         }
 
         /// <summary>
@@ -44,7 +46,6 @@ namespace UpliftLink.Services
             {
                 var json = await File.ReadAllTextAsync(_filePath);
                 _userPreferences = JsonSerializer.Deserialize<UserPreferences>(json);
-                
             }
             return _userPreferences;
         }
@@ -71,7 +72,7 @@ namespace UpliftLink.Services
         /// </summary>
         private void EnableBluetooth()
         {
-            // Implement Bluetooth enabling logic here
+            _proximityService.StartProximityDetection();
         }
 
         /// <summary>
@@ -79,33 +80,11 @@ namespace UpliftLink.Services
         /// </summary>
         private void DisableBluetooth()
         {
-            // Implement Bluetooth disabling logic here
-        }
-    }
-    /// <summary>
-    /// Service for managing proximity detection of nearby devices.
-    /// </summary>
-    internal class ProximityService
-    {
-        /// <summary>
-        /// Indicates whether a nearby device is detected.
-        /// </summary>
-        private bool isNearbyDevice;
-
-        /// <summary>
-        /// Starts the proximity detection process to scan for nearby devices.
-        /// </summary>
-        public void StartProximityDetection()
-        {
-            // Logic to start scanning for nearby devices
-        }
-
-        /// <summary>
-        /// Stops the proximity detection process.
-        /// </summary>
-        public void StopProximityDetection()
-        {
-            // Logic to stop scanning for nearby devices
+            _proximityService.StopProximityDetection();
         }
     }
 }
+    /// <summary>
+    /// Service for managing proximity detection of nearby devices.
+    /// </summary>
+    
