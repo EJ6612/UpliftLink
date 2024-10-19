@@ -6,7 +6,7 @@ namespace UpliftLink.Services
     public class UserPreferencesService
     {
         private readonly UserPreferences _userPreferences;
-
+        // WORK WITH JSON TO STORE IF isVisible and PersonalizedMessages are there.
         public UserPreferencesService()
         {
             _userPreferences = new UserPreferences();

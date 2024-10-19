@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
+      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\userpreferencesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\userpreferencesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
       "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
->>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\jsonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\pages\\createusernamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -30,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\services\\userpreferencesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|solutionrelative:upliftlink\\services\\userpreferencesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F47F9A-A90D-4B62-A19B-BBB152A79993}|UpliftLink\\UpliftLink.csproj|c:\\fall-2024\\hackathonfall2024\\upliftlink\\upliftlink\\userpref\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,21 +74,18 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-=======
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "UpliftLink\\Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Platforms\\Android\\AndroidManifest.xml*",
-              "RelativeToolTip": "UpliftLink\\Platforms\\Android\\AndroidManifest.xml*",
+              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "UpliftLink\\Platforms\\Android\\AndroidManifest.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-10-19T09:13:56.569Z"
+              "WhenOpened": "2024-10-19T10:59:46.001Z"
             },
             {
               "$type": "Document",
->>>>>>> Stashed changes
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CreateUserNamePage.xaml",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Pages\\CreateUserNamePage.xaml",
               "RelativeDocumentMoniker": "UpliftLink\\Pages\\CreateUserNamePage.xaml",
@@ -97,12 +93,11 @@
               "RelativeToolTip": "UpliftLink\\Pages\\CreateUserNamePage.xaml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-19T08:57:13.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T08:57:13.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CreateUserNamePage.xaml.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Pages\\CreateUserNamePage.xaml.cs",
               "RelativeDocumentMoniker": "UpliftLink\\Pages\\CreateUserNamePage.xaml.cs",
@@ -114,24 +109,20 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 0,
-=======
-              "DocumentIndex": 5,
->>>>>>> Stashed changes
+              "DocumentIndex": 2,
               "Title": "JsonService.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\JsonService.cs",
               "RelativeDocumentMoniker": "UpliftLink\\Services\\JsonService.cs",
               "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\JsonService.cs",
               "RelativeToolTip": "UpliftLink\\Services\\JsonService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T08:38:17.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Models\\User.cs",
               "RelativeDocumentMoniker": "UpliftLink\\Models\\User.cs",
@@ -143,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "UpliftLink\\MainPage.xaml.cs",
@@ -155,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\App.xaml.cs",
               "RelativeDocumentMoniker": "UpliftLink\\App.xaml.cs",
@@ -167,15 +158,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "UserPreferencesService.cs",
               "DocumentMoniker": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\UserPreferencesService.cs",
               "RelativeDocumentMoniker": "UpliftLink\\Services\\UserPreferencesService.cs",
-              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\UserPreferencesService.cs",
-              "RelativeToolTip": "UpliftLink\\Services\\UserPreferencesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Fall-2024\\hackathonFall2024\\UpliftLink\\UpliftLink\\Services\\UserPreferencesService.cs*",
+              "RelativeToolTip": "UpliftLink\\Services\\UserPreferencesService.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBTwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T07:54:45.886Z"
+              "WhenOpened": "2024-10-19T07:54:45.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

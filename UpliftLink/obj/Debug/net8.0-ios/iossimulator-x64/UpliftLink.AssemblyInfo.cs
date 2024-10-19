@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UpliftLink")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+73ccd4ed1892eaa22984ec8616c5e89f037db323")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+455895d7b53d855c8168505f634e9ced5724b175")]
 [assembly: System.Reflection.AssemblyProductAttribute("UpliftLink")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UpliftLink")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
