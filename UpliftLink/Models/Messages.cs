@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UpliftLink.Models
 {
@@ -17,6 +14,27 @@ namespace UpliftLink.Models
             Content = content;
             Sender = sender;
             Timestamp = timestamp;
+        }
+    }
+
+    public class IncomingMessage : Message
+    {
+        public string SenderUserName { get; set; }
+
+        public IncomingMessage(string content, string sender, DateTime timestamp, string senderUserName)
+            : base(content, sender, timestamp)
+        {
+            SenderUserName = senderUserName;
+        }
+    }
+
+    public class OutgoingMessageCount
+    {
+        public Dictionary<string, int> CategoryCounts { get; set; }
+
+        public OutgoingMessageCount()
+        {
+            CategoryCounts = new Dictionary<string, int>();
         }
     }
 }
