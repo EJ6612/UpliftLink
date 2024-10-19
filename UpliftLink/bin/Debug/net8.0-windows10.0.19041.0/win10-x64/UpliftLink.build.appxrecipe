@@ -217,18 +217,22 @@
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\incoming.scale-100.png">
       <PackagePath>incoming.scale-100.png</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\incoming200.scale-100.png">
       <PackagePath>incoming200.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\incoming64.scale-100.png">
       <PackagePath>incoming64.scale-100.png</PackagePath>
     </AppxPackagedFile>
+=======
+>>>>>>> Stashed changes
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outgoing.scale-100.png">
       <PackagePath>outgoing.scale-100.png</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outgoing200.scale-100.png">
       <PackagePath>outgoing200.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -244,6 +248,11 @@
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings64.scale-100.png">
       <PackagePath>settings64.scale-100.png</PackagePath>
     </AppxPackagedFile>
+=======
+    <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+>>>>>>> Stashed changes
     <AppxPackagedFile Include="C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\UpliftLink.deps.json">
       <PackagePath>UpliftLink.deps.json</PackagePath>
     </AppxPackagedFile>

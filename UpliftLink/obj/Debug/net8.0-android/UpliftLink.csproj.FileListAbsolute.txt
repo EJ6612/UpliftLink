@@ -1067,6 +1067,7 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\re
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\incoming.png
+<<<<<<< Updated upstream
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\incoming200.png
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\incoming64.png
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
@@ -1076,6 +1077,11 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\re
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\settings.png
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\settings200.png
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\settings64.png
+=======
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\outgoing.png
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\drawable\settings.png
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
@@ -1178,8 +1184,11 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\res\values\colors.xml
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\uploadflags.txt
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\resolvedassemblies.hash
+<<<<<<< Updated upstream
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
+=======
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
@@ -1325,6 +1334,10 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
+<<<<<<< Updated upstream
+=======
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -1411,8 +1424,11 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\UpliftLink.pdb
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
+<<<<<<< Updated upstream
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
+=======
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll
@@ -1566,9 +1582,12 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
+<<<<<<< Updated upstream
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\typemaps.x86.ll
+=======
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\AndroidManifest.xml
@@ -1579,9 +1598,12 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\static.flag
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\__environment__.txt
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\buildid.txt
+<<<<<<< Updated upstream
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\environment.x86.ll
+=======
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\environment.x86_64.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
@@ -2081,6 +2103,7 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\src\com\companyname\upliftlink\R.java
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\_CompileJava.FileList.txt
+<<<<<<< Updated upstream
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\compressed_assemblies.x86.ll
@@ -2108,6 +2131,14 @@ C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\an
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
+=======
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\environment.x86_64.o
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+>>>>>>> Stashed changes
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Fall-2024\hackathonFall2024\UpliftLink\UpliftLink\obj\Debug\net8.0-android\android\bin\classes2.dex

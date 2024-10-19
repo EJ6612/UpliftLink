@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UpliftLink")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0d1d5e847f25b8031d9cd186114d227ab36494a7")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fd7a5f008b90aa70af59eae891a125ac67a08290")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("UpliftLink")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UpliftLink")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
