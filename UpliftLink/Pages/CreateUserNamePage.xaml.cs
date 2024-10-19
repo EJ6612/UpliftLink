@@ -4,7 +4,7 @@ public partial class CreateUserNamePage : ContentPage
 {
 	public CreateUserNamePage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 		CreateUserName();
 	}
 

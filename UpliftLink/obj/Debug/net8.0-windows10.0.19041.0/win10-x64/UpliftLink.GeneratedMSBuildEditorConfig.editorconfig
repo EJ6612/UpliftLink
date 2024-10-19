@@ -61,6 +61,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.Pages.OutgoingM
 build_metadata.AdditionalFiles.TargetPath = Pages\OutgoingMessagesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\OutgoingMessagesPage.xaml
 
+[C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/Pages/ReturnedUserUI.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.Pages.ReturnedUserUI.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ReturnedUserUI.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ReturnedUserUI.xaml
+
 [C:/Fall-2024/hackathonFall2024/UpliftLink/UpliftLink/Pages/SelectIncomingMessagesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UpliftLink.Pages.SelectIncomingMessagesPage.xaml
