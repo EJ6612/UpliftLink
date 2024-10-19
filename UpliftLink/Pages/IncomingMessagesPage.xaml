@@ -3,43 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UpliftLink.Pages.IncomingMessagesPage"
              Title="IncomingMessagesPage">
-           <VerticalStackLayout Padding="20" Spacing="15">
 
-        <!-- Header -->
-        <Label Text="Welcome to Uplift Link!"
-               FontSize="24"
-               HorizontalOptions="Center"
-               VerticalOptions="Start"
-               Margin="0, 20, 0, 10"/>
+             <ScrollView>
+                <VerticalStackLayout Padding="20">
 
-        <HorizontalStackLayout HorizontalOptions="CenterAndExpand"
-            Padding="20"
-            Spacing="10"
-            VerticalOptions="Center">
-
-            <Button Text="🔀" 
-                x:Name="ShuffleUserNameBtn"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                Clicked="ShuffleUserNameBtn_Clicked"/>
-
-            <Entry Placeholder="username"
-                    x:Name="userNameBox"
-                    HorizontalOptions="FillAndExpand"
-                    VerticalOptions="Center"
-                    MinimumWidthRequest="{OnPlatform Default=100, Android=200, iOS=200}"
-                    IsReadOnly="True"/>
-
-        </HorizontalStackLayout>
-        <!-- Textbox (Entry) -->
-       
-
-        <!-- Button -->
-        <Button Text="Save"
-                x:Name="SaveButton"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                Clicked="SaveButton_Clicked"/>
-
-    </VerticalStackLayout>
+                </VerticalStackLayout>
+             </ScrollView>
+          
 </ContentPage>
