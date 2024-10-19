@@ -10,8 +10,7 @@ namespace UpliftLink.Services
 {
     public class MessageService
     {
-        private readonly string _incomingFilePath;
-        private readonly string _outgoingFilePath;
+        private readonly string _filePath;
         private List<IncomingMessage> _incomingMessages;
         private OutgoingMessageCount _outgoingMessageCount;
         private UserPreferences _userPreferences;
@@ -23,8 +22,7 @@ namespace UpliftLink.Services
         public MessageService(UserPreferences preferences)
         {
             _userPreferences = preferences;
-            _incomingFilePath = Path.Combine(FileSystem.AppDataDirectory, "incomingMessages.json");
-            _outgoingFilePath = Path.Combine(FileSystem.AppDataDirectory, "outgoingMessageCount.json");
+            _filePath = Path.Combine(FileSystem.AppDataDirectory, "messages.json");
             _incomingMessages = new List<IncomingMessage>();
             _outgoingMessageCount = new OutgoingMessageCount();
         }
@@ -40,7 +38,7 @@ namespace UpliftLink.Services
         {
             var incomingMessage = new IncomingMessage(content, sender, DateTime.UtcNow, senderUserName);
             _incomingMessages.Add(incomingMessage);
-            await SaveIncomingMessagesAsync();
+            await SaveMessagesAsync();
         }
 
         /// <summary>
@@ -58,7 +56,7 @@ namespace UpliftLink.Services
             {
                 _outgoingMessageCount.CategoryCounts[category] = 1;
             }
-            await SaveOutgoingMessageCountAsync();
+            await SaveMessagesAsync();
         }
 
         /// <summary>
@@ -69,45 +67,36 @@ namespace UpliftLink.Services
         {
             var cutoffTime = DateTime.UtcNow.AddHours(-24);
             _incomingMessages = _incomingMessages.Where(m => m.Timestamp >= cutoffTime).ToList();
-            await SaveIncomingMessagesAsync();
+            await SaveMessagesAsync();
         }
 
         /// <summary>
-        /// Saves the list of incoming messages to the JSON file.
+        /// Saves the list of incoming messages and outgoing message count to the JSON file.
         /// </summary>
         /// <returns>A task that represents the asynchronous operation.</returns>
-        private async Task SaveIncomingMessagesAsync()
+        private async Task SaveMessagesAsync()
         {
-            var json = JsonSerializer.Serialize(_incomingMessages, new JsonSerializerOptions { WriteIndented = true });
-            await File.WriteAllTextAsync(_incomingFilePath, json);
+            var messages = new
+            {
+                incomingMessages = _incomingMessages,
+                outgoingMessages = _outgoingMessageCount
+            };
+            var json = JsonSerializer.Serialize(messages, new JsonSerializerOptions { WriteIndented = true });
+            await File.WriteAllTextAsync(_filePath, json);
         }
 
         /// <summary>
-        /// Saves the outgoing message count to the JSON file.
-        /// </summary>
-        /// <returns>A task that represents the asynchronous operation.</returns>
-        private async Task SaveOutgoingMessageCountAsync()
-        {
-            var json = JsonSerializer.Serialize(_outgoingMessageCount, new JsonSerializerOptions { WriteIndented = true });
-            await File.WriteAllTextAsync(_outgoingFilePath, json);
-        }
-
-        /// <summary>
-        /// Loads incoming and outgoing messages from their respective JSON files.
+        /// Loads incoming and outgoing messages from the JSON file.
         /// </summary>
         /// <returns>A task that represents the asynchronous operation.</returns>
         public async Task LoadMessagesAsync()
         {
-            if (File.Exists(_incomingFilePath))
+            if (File.Exists(_filePath))
             {
-                var json = await File.ReadAllTextAsync(_incomingFilePath);
-                _incomingMessages = JsonSerializer.Deserialize<List<IncomingMessage>>(json);
-            }
-
-            if (File.Exists(_outgoingFilePath))
-            {
-                var json = await File.ReadAllTextAsync(_outgoingFilePath);
-                _outgoingMessageCount = JsonSerializer.Deserialize<OutgoingMessageCount>(json);
+                var json = await File.ReadAllTextAsync(_filePath);
+                var messages = JsonSerializer.Deserialize<Messages>(json);
+                _incomingMessages = messages.IncomingMessages;
+                _outgoingMessageCount = messages.OutgoingMessages;
             }
         }
 
@@ -128,5 +117,14 @@ namespace UpliftLink.Services
         {
             return _outgoingMessageCount;
         }
+    }
+
+    /// <summary>
+    /// Represents the combined structure of incoming and outgoing messages.
+    /// </summary>
+    public class Messages
+    {
+        public List<IncomingMessage> IncomingMessages { get; set; }
+        public OutgoingMessageCount OutgoingMessages { get; set; }
     }
 }
