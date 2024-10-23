@@ -45,8 +45,12 @@ namespace UpliftLink.Services
             if (File.Exists(_filePath))
             {
                 var json = await File.ReadAllTextAsync(_filePath);
+
+                // TODO error check
                 _userPreferences = JsonSerializer.Deserialize<UserPreferences>(json);
             }
+
+            // TODO error check
             return _userPreferences;
         }
 

@@ -25,6 +25,8 @@ namespace UpliftLink.Services
         {
             _bluetoothLE = CrossBluetoothLE.Current;
             _bluetoothAdapter = CrossBluetoothLE.Current.Adapter;
+
+            // TODO fix potential error
             _bluetoothAdapter.DeviceDiscovered += OnDeviceDiscovered;
         }
 
@@ -58,6 +60,7 @@ namespace UpliftLink.Services
         public async void SendMessage(string macId, string message)
         {
             var device = _bluetoothAdapter.ConnectedDevices.FirstOrDefault(d => d.Id.ToString() == macId);
+
             if (device != null && await IsAppInstalledOnDevice(device))
             {
                 await SendMessageAsync(device, message);
@@ -99,6 +102,7 @@ namespace UpliftLink.Services
             var characteristic = await service.GetCharacteristicAsync(GattConstants.CustomCharacteristicUuid);
 
             int chunkSize = 32;
+            
             for (int i = 0; i < message.Length; i += chunkSize)
             {
                 string chunk = message.Substring(i, Math.Min(chunkSize, message.Length - i));

@@ -52,10 +52,12 @@ namespace UpliftLink.Services
             {
                 _outgoingMessageCount.CategoryCounts[category]++;
             }
+
             else
             {
                 _outgoingMessageCount.CategoryCounts[category] = 1;
             }
+
             await SaveMessagesAsync();
         }
 
@@ -66,7 +68,9 @@ namespace UpliftLink.Services
         public async Task CleanUpOldMessagesAsync()
         {
             var cutoffTime = DateTime.UtcNow.AddHours(-24);
+
             _incomingMessages = _incomingMessages.Where(m => m.Timestamp >= cutoffTime).ToList();
+
             await SaveMessagesAsync();
         }
 
@@ -81,7 +85,9 @@ namespace UpliftLink.Services
                 incomingMessages = _incomingMessages,
                 outgoingMessages = _outgoingMessageCount
             };
+
             var json = JsonSerializer.Serialize(messages, new JsonSerializerOptions { WriteIndented = true });
+
             await File.WriteAllTextAsync(_filePath, json);
         }
 
@@ -95,6 +101,8 @@ namespace UpliftLink.Services
             {
                 var json = await File.ReadAllTextAsync(_filePath);
                 var messages = JsonSerializer.Deserialize<Messages>(json);
+
+                // TODO error check
                 _incomingMessages = messages.IncomingMessages;
                 _outgoingMessageCount = messages.OutgoingMessages;
             }
@@ -124,6 +132,7 @@ namespace UpliftLink.Services
     /// </summary>
     public class Messages
     {
+        // TODO? declare as nullable?
         public List<IncomingMessage> IncomingMessages { get; set; }
         public OutgoingMessageCount OutgoingMessages { get; set; }
     }

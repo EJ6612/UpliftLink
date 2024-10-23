@@ -46,6 +46,9 @@ namespace UpliftLink.Services
                 return new List<User>();
 
             var json = await File.ReadAllTextAsync(_filePath);
+
+            // TODO error check
+
             return JsonConvert.DeserializeObject<List<User>>(json);
         }
 
@@ -55,6 +58,8 @@ namespace UpliftLink.Services
                 return new UserPreferences();
 
             var json = await File.ReadAllTextAsync(_filePath);
+
+            // TODO error check
 
             return JsonConvert.DeserializeObject<UserPreferences>(json);
 

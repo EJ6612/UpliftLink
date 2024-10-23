@@ -12,6 +12,7 @@ namespace UpliftLink
         {
             InitializeComponent();
             _jsonService = new JsonService("user_preferences.json");
+
             CheckUserExistenceAsync();
         }
 
