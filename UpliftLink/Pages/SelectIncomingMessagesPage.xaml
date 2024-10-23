@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UpliftLink.Pages.SelectIncomingMessagesPage"
-             Title="SelectIncomingMessagesPage">
+             x:Class="UpliftLink.Pages.SelectIncomingMessagesPage">
 
     <VerticalStackLayout Padding="20">
 
@@ -25,6 +24,7 @@
                     x:Name="SaveButton"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
+                    Padding="10"
                     Clicked="SaveButton_Clicked"/>
 
     </VerticalStackLayout>

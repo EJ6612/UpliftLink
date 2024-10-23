@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UpliftLink.Pages.CreateOutgoingMessagesPage"
-             Title="CreateOutgoingMessagesPage">
+             x:Class="UpliftLink.Pages.CreateOutgoingMessagesPage">
+
+    <!-- Where user enters their outgoing messages. Is used
+            setup, and can be accessed again in settings. -->
+
     <ScrollView>
+
         <VerticalStackLayout Padding="20">
 
+            <!-- Pick-me-up prompt. -->
             <VerticalStackLayout>
                 <Label Text="Write a pick-me-up: "
                     FontSize="Medium" />
@@ -18,6 +23,7 @@
                     HorizontalOptions="FillAndExpand"/>
             </VerticalStackLayout>
 
+            <!-- Humor prompt. -->
             <VerticalStackLayout>
                 <Label Text="Crack a joke:"
                     FontSize="Medium" />
@@ -30,6 +36,7 @@
                     HorizontalOptions="FillAndExpand"/>
             </VerticalStackLayout>
 
+            <!-- Service Act prompt. -->
             <VerticalStackLayout>
                 <Label Text="Suggest an act of service: "
                     FontSize="Medium" />
@@ -42,6 +49,7 @@
                     HorizontalOptions="FillAndExpand"/>
             </VerticalStackLayout>
 
+            <!-- Quote prompt. -->
             <VerticalStackLayout>
                 <Label Text="Share an inspiring quote: "
                     FontSize="Medium" />
@@ -58,6 +66,7 @@
                     x:Name="SaveButton"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
+                    Padding="0,0,0,100"
                     Clicked="SaveButton_Clicked"/>
             
         </VerticalStackLayout>
