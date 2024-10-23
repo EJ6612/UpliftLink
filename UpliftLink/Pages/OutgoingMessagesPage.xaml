@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UpliftLink.Pages.OutgoingMessagesPage"
-             Title="OutgoingMessagesPage">
+             x:Class="UpliftLink.Pages.OutgoingMessagesPage">
+
+    <!-- Page loads in the sent messages user has sent over the 
+            previous 24 hours -->
+
     <ScrollView>
+
         <VerticalStackLayout x:Name="StackLayout" Padding="20">
-            <Label Text="Outgoing Messages"
+
+            <Label Text="Sent Messages"
                 FontSize="Title"
                 VerticalTextAlignment="Start"
                 HorizontalTextAlignment="Start" />
+
+                <!-- Sent messages are loaded from the JSON via the attached .cs -->
+
         </VerticalStackLayout>
+
     </ScrollView>
+
 </ContentPage>

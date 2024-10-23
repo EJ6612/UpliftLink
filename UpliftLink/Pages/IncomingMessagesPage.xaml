@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UpliftLink.Pages.IncomingMessagesPage"
-             Title="IncomingMessagesPage">
+             x:Class="UpliftLink.Pages.IncomingMessagesPage">
 
-             <ScrollView>
-                <VerticalStackLayout x:Name="StackLayout" Padding="20">
-                    <Label Text="Incoming Messages"
-                        FontSize="Title"
-                        VerticalTextAlignment="Start"
-                        HorizontalTextAlignment="Start" />
-                </VerticalStackLayout>
-             </ScrollView>
+    <!-- Received Messages Page -->
+
+    <ScrollView>
+
+        <VerticalStackLayout x:Name="StackLayout" Padding="20">
+
+            <Label Text="Received Messages"
+                FontSize="Title"
+                VerticalTextAlignment="Start"
+                HorizontalTextAlignment="Start" />
+
+                <!-- StackLayout is filled by the JSON via the attached .cs -->
+
+        </VerticalStackLayout>
+
+    </ScrollView>
           
 </ContentPage>

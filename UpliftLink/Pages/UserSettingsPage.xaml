@@ -3,20 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UpliftLink.Pages.UserSettingsPage">
 
+    <!-- User Settings Page -->
+
     <VerticalStackLayout Padding="10" Spacing="10">
 
         <Label Text="Settings"
-                        FontSize="Title"
-                        VerticalTextAlignment="Start"
-                        HorizontalTextAlignment="Start" />
+                FontSize="Title"
+                VerticalTextAlignment="Start"
+                HorizontalTextAlignment="Start" />
 
-       <Button x:Name="IncomingPreferenceButton"
-        Text="Incoming Messages Preference" 
-        Clicked="IncomingPreferenceButton_Clicked"/>
-        
+        <!-- Goes to Incoming Preferences Pages -->
+        <Button x:Name="IncomingPreferenceButton"
+                Text="Incoming Messages Preference" 
+                Clicked="IncomingPreferenceButton_Clicked"/>
+
+        <!-- Goes to Outgoing Preferences Pages -->
         <Button x:Name="OutgoingEditButton"
-        Text="Edit Outgoing Messages" 
-        Clicked="OutgoingEditButton_Clicked"/>
+                Text="Edit Outgoing Messages" 
+                Clicked="OutgoingEditButton_Clicked"/>
 
     </VerticalStackLayout>
+
 </ContentPage>

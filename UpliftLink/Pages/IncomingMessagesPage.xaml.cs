@@ -6,14 +6,16 @@ public partial class IncomingMessagesPage : ContentPage
 	{
 		InitializeComponent();
 
-		// foreach message in messages, maximum 20
+		// TODO load messages from JSON file
+
+		// ! Remove manual messages after TODO is completed
 		CreateChatBubble("Wave to 5 people today.", "Bouncing-Fish-4957");
 		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
 		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
 		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
 		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
 		CreateChatBubble("Call a friend you haven't spoken to in a while.", "Jazzy-Crayon-5184");
-
+		// ! ----------------------------------------------
 	}
 
 	/// <summary>

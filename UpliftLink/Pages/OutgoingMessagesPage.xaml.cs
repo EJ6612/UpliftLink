@@ -5,10 +5,15 @@ public partial class OutgoingMessagesPage : ContentPage
 	public OutgoingMessagesPage()
 	{
 		InitializeComponent();
+
+		// TODO load message stats in from JSON
+
+		// ! Remove manual messages after TODO is completed
 		CreateChatBubble("You've got this!", "Lift-me-up", 8);
 		CreateChatBubble("Love one another -Jesus Christ", "Quote", 5);
 		CreateChatBubble("Instead of Abinadi, what if Abinasurvived.", "Humor", 11);
 		CreateChatBubble("Give someone an orange, if they're not allergic.", "Service Idea", 2);
+		// ! ----------------------------------------------
 	}
 
 	/// <summary>

@@ -8,17 +8,21 @@
              SelectedTabColor="#1EBE46"
              UnselectedTabColor="White">
 
-             <local:IncomingMessagesPage x:Name="IncomingMessages"
-                Title=""
-                IconImageSource="incoming32.png">
-                </local:IncomingMessagesPage>
-            <local:OutgoingMessagesPage x:Name="OutgoingMessages"
-                Title=""
-                IconImageSource="outgoing32.png">
-                </local:OutgoingMessagesPage>
-            <local:UserSettingsPage x:Name="UserSettings"
-                Title=""
-                IconImageSource="settings32.png">
-                </local:UserSettingsPage>
+    <!-- Home page for returning users. -->
+
+    <local:IncomingMessagesPage x:Name="IncomingMessages"
+        Title=""
+        IconImageSource="incoming32.png">
+    </local:IncomingMessagesPage>
+
+    <local:OutgoingMessagesPage x:Name="OutgoingMessages"
+        Title=""
+        IconImageSource="outgoing32.png">
+    </local:OutgoingMessagesPage>
+
+    <local:UserSettingsPage x:Name="UserSettings"
+        Title=""
+        IconImageSource="settings32.png">
+    </local:UserSettingsPage>
  
 </TabbedPage>

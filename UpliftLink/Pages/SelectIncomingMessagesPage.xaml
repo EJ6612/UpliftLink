@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UpliftLink.Pages.SelectIncomingMessagesPage">
 
+    <!-- Where the user selects the message category they want to receive. -->
+
     <VerticalStackLayout Padding="20">
 
         <Picker x:Name="IncomingMessagesPreference"
@@ -10,12 +12,16 @@
             SelectedIndexChanged="IncomingMessagesPreference_SelectedIndexChanged">
 
                 <Picker.ItemsSource>
+
                     <x:Array Type="{x:Type x:String}">
+
                         <x:String>Pick-me-up</x:String>
                         <x:String>Humorous</x:String>
                         <x:String>Service act idea</x:String>
                         <x:String>Inspirational Quote</x:String>
+
                     </x:Array>
+
                 </Picker.ItemsSource>
 
             </Picker>
@@ -28,4 +34,5 @@
                     Clicked="SaveButton_Clicked"/>
 
     </VerticalStackLayout>
+    
 </ContentPage>

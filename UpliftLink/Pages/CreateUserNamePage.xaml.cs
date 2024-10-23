@@ -169,7 +169,7 @@ public partial class CreateUserNamePage : ContentPage
 
         await _jsonService.SaveUserPreferencesAsync(userPreferences);
 
-
+		// TODO fix JSON save code
 
         await Navigation.PushAsync(new CreateOutgoingMessagesPage());
 	}
